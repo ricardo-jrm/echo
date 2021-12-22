@@ -10,7 +10,7 @@ export const parameters = {
   },
 };
 
-const tempEcho: EchoRecord = {
+const exampleEcho: EchoRecord = {
   en: {
     example: 'example en',
   },
@@ -21,7 +21,7 @@ const tempEcho: EchoRecord = {
 
 export const decorators = [
   (Story) => (
-    <EchoProvider echos={tempEcho} echosDefault="en">
+    <EchoProvider echos={exampleEcho} echosDefault="en">
       {Story()}
     </EchoProvider>
   ),
