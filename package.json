@@ -1,6 +1,6 @@
 {
   "name": "@ricardo-jrm/echo",
-  "description": "React intl utility",
+  "description": "React lightweight intl",
   "version": "0.0.0-development",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -28,7 +28,8 @@
     "jest",
     "prettier",
     "husky",
-    "cicd"
+    "cicd",
+    "intl"
   ],
   "scripts": {
     "build": "tsc",
@@ -91,6 +92,7 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
+    "@ricardo-jrm/use-local-state": "^1.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

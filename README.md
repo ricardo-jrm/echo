@@ -2,7 +2,7 @@
 
 # ☁ `@ricardo-jrm/echo`
 
-<b>React Module Boilerplate</b>
+<b>React lightweight intl</b>
 
 ![build](https://img.shields.io/github/workflow/status/ricardo-jrm/echo/Continuous%20Integration?style=for-the-badge)
 ![license](https://img.shields.io/github/license/ricardo-jrm/echo?style=for-the-badge)
@@ -34,7 +34,38 @@ yarn add @ricardo-jrm/echo
 ### <b>Usage</b>
 
 ```ts
-import { ExampleComponent, useExampleHook } from '@ricardo-jrm/echo';
+// component
+import { Echo, EchoProps } from '@ricardo-jrm/echo';
+
+// hook
+import { useEcho, EchoRecord, EchoMsgs } from '@ricardo-jrm/echo';
+
+// provider
+import { EchoProvider, EchoProviderProps } from '@ricardo-jrm/echo';
+
+
+// app
+const exampleEcho: EchoRecord = {
+  en: {
+    example: 'example en',
+  },
+  pt: {
+    example: 'exemplo pt',
+  },
+};
+
+<EchoProvider echos={exampleEcho} echosDefault="en">
+  {...}
+</EchoProvider>
+
+
+// component
+const Echo = ({ echoid }: EchoProps) => {
+  const { echo } = useEcho();
+  return <span>{echo(echoid)}</span>;
+};
+
+<Echo echoid="example" />
 ```
 
 <br />
