@@ -1,7 +1,8 @@
-export { ExampleProvider } from './providers/example';
-export type { ExampleProviderProps } from './providers/example';
+export { Echo } from './components/Echo';
+export type { EchoProps } from './components/Echo';
 
-export { ExampleComponent } from './components/example';
-export type { ExampleComponentProps } from './components/example';
+export { useEcho } from './hooks/useEcho';
+export type { EchoRecord, EchoMsgs } from './hooks/useEcho';
 
-export { useExampleHook } from './hooks/example';
+export { EchoProvider } from './providers/EchoProvider';
+export type { EchoProviderProps } from './providers/EchoProvider';
