@@ -55,7 +55,7 @@ export const EchoProvider = ({
         echoActiveIdSet(echoId);
       } else {
         // eslint-disable-next-line no-console
-        console.log('echo not found for given id: ', echoId);
+        console.warn('echo not found for given id: ', echoId);
       }
     },
     [echos, echoActiveIdSet],
