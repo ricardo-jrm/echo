@@ -22,11 +22,11 @@ export interface EchoProviderProps {
   /**
    * Provided echos
    */
-  echos: EchoRecord;
+  echo: EchoRecord;
   /**
    * Default echo ID
    */
-  echosDefault: string;
+  echoDefault: string;
 }
 
 /**
@@ -35,13 +35,13 @@ export interface EchoProviderProps {
 export const EchoProvider = ({
   children,
   lsid,
-  echos,
-  echosDefault,
+  echo: echos,
+  echoDefault,
 }: EchoProviderProps) => {
   // init active echo
   const [echoActiveId, echoActiveIdSet] = useLocalState(
     lsid || 'echo',
-    echosDefault,
+    echoDefault,
   );
   const echoActive = useMemo<EchoMsgs>(
     () => echos[echoActiveId],

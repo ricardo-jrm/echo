@@ -16,5 +16,5 @@ export interface EchoProps {
  */
 export const Echo = ({ echoid }: EchoProps) => {
   const { echo } = useEcho();
-  return <span>{echo(echoid)}</span>;
+  return echo(echoid);
 };

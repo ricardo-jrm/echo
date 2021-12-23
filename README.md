@@ -54,7 +54,7 @@ const exampleEcho: EchoRecord = {
   },
 };
 
-<EchoProvider echos={exampleEcho} echosDefault="en">
+<EchoProvider echo={exampleEcho} echoDefault="en">
   {...}
 </EchoProvider>
 

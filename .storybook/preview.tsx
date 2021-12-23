@@ -21,7 +21,7 @@ const exampleEcho: EchoRecord = {
 
 export const decorators = [
   (Story) => (
-    <EchoProvider echos={exampleEcho} echosDefault="en">
+    <EchoProvider echo={exampleEcho} echoDefault="en">
       {Story()}
     </EchoProvider>
   ),
