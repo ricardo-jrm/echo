@@ -1,21 +1,21 @@
 {
-  "name": "@ricardo-jrm/echo",
+  "name": "@ricardojrmcom/echo",
   "description": "React lightweight intl",
-  "version": "0.0.1-development",
+  "version": "0.0.2-development",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardo-jrm/echo.git"
+    "url": "https://github.com/ricardojrmcom/echo.git"
   },
   "author": {
     "name": "Ricardo Mota",
-    "url": "https://github.com/ricardo-jrm"
+    "url": "https://github.com/ricardojrmcom"
   },
-  "homepage": "https://github.com/ricardo-jrm/echo#readme",
+  "homepage": "https://github.com/ricardojrmcom/echo#readme",
   "bugs": {
-    "url": "https://github.com/ricardo-jrm/echo/issues"
+    "url": "https://github.com/ricardojrmcom/echo/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -92,7 +92,7 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
-    "@ricardo-jrm/use-local-state": "^1.0.1",
+    "@ricardojrmcom/use-local-state": "^2.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

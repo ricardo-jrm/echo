@@ -1,17 +1,17 @@
 <div align="center">
 
-# ☁ `@ricardo-jrm/echo`
+# ☁ `@ricardojrmcom/echo`
 
 <b>React lightweight intl</b>
 
-![build](https://img.shields.io/github/workflow/status/ricardo-jrm/echo/Continuous%20Integration?style=for-the-badge)
-![license](https://img.shields.io/github/license/ricardo-jrm/echo?style=for-the-badge)
+![build](https://img.shields.io/github/workflow/status/ricardojrmcom/echo/Continuous%20Integration?style=for-the-badge)
+![license](https://img.shields.io/github/license/ricardojrmcom/echo?style=for-the-badge)
 
-![author](<https://img.shields.io/badge/Author-Ricardo%20%3Cl1b3r__--%3E%20Mota%20(%40ricardo--jrm)-orange?style=for-the-badge>)
+![author](<https://img.shields.io/badge/Author-Ricardo%20%3Cl1b3r__--%3E%20Mota%20(%40ricardojrmcom)-orange?style=for-the-badge>)
 
-![lang](https://img.shields.io/github/languages/top/ricardo-jrm/echo?style=for-the-badge)
-![version](https://img.shields.io/npm/v/@ricardo-jrm/echo?style=for-the-badge)
-![size](https://img.shields.io/bundlephobia/min/@ricardo-jrm/echo?style=for-the-badge)
+![lang](https://img.shields.io/github/languages/top/ricardojrmcom/echo?style=for-the-badge)
+![version](https://img.shields.io/npm/v/@ricardojrmcom/echo?style=for-the-badge)
+![size](https://img.shields.io/bundlephobia/min/@ricardojrmcom/echo?style=for-the-badge)
 
 </div>
 
@@ -24,9 +24,9 @@
 ### <b>Install</b>
 
 ```ts
-npm install @ricardo-jrm/echo
+npm install @ricardojrmcom/echo
 
-yarn add @ricardo-jrm/echo
+yarn add @ricardojrmcom/echo
 ```
 
 <br />
@@ -35,13 +35,13 @@ yarn add @ricardo-jrm/echo
 
 ```ts
 // component
-import { Echo, EchoProps } from '@ricardo-jrm/echo';
+import { Echo, EchoProps } from '@ricardojrmcom/echo';
 
 // hook
-import { useEcho, EchoRecord, EchoMsgs } from '@ricardo-jrm/echo';
+import { useEcho, EchoRecord, EchoMsgs } from '@ricardojrmcom/echo';
 
 // provider
-import { EchoProvider, EchoProviderProps } from '@ricardo-jrm/echo';
+import { EchoProvider, EchoProviderProps } from '@ricardojrmcom/echo';
 
 
 // app
@@ -76,8 +76,8 @@ const Echo = ({ echoid }: EchoProps) => {
 
 ### <b>License</b>
 
-[MIT](https://github.com/ricardo-jrm/echo/blob/main/LICENSE) © Ricardo <l1b3r\_-> Mota ([@ricardo-jrm](https://github.com/ricardo-jrm))
+[MIT](https://github.com/ricardojrmcom/echo/blob/main/LICENSE) © Ricardo <l1b3r\_-> Mota ([@ricardojrmcom](https://github.com/ricardojrmcom))
 
-Bootstrapped with 🟣[@ricardo-jrm/supernova](https://github.com/ricardo-jrm/supernova)
+Bootstrapped with 🟣[@ricardojrmcom/supernova](https://github.com/ricardojrmcom/supernova)
 
 <br />
